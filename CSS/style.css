@@ -1,0 +1,657 @@
+@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;500;700&family=Roboto:wght@100&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --rojo-brillante: #f25f3a;
+    --azul-oscuro: #232c51;
+}
+
+body {
+    font-family: 'Be Vietnam Pro', sans-serif;
+    color: var(--azul-oscuro);
+    display: block;
+}
+
+header{
+    display: flex;
+    color: var(--azul-oscuro);
+   
+}
+
+header .navbar {
+    display: none;
+}
+
+header .logo{
+    margin-top: 12%;
+    margin-bottom: 9%;
+    margin-left: 7%;
+}
+
+.fas {
+    font-size: 25px;
+    position: absolute;
+    padding-top: 12%;
+    right: 7%;
+}
+
+.graficos {
+    display: none;
+}
+
+.graficosmobile {
+    width: 100%;
+}
+
+.textocentral {
+    text-align: center;
+    font-style: normal;
+    color: #B3B2B7;
+    padding-bottom: 7%;
+    padding-top: 2.5%;
+    padding-left: 6%;
+    padding-right: 6%;
+    letter-spacing: -0.01em;
+    line-height: 26px;
+}
+
+h1 {
+    font-size: 40px;
+    text-align: center;
+    font-weight: 700;
+    letter-spacing: -0.035em;
+}
+
+h2 {
+    font-size: 40px;
+    font-style: normal;
+    font-weight: bold;
+    letter-spacing: -0.001em;
+    padding-bottom: 8%;
+}
+
+h3 {
+    font-size: 30px;
+    text-align: center;
+    font-weight: bold;
+    letter-spacing: -0.07em;
+    margin-top: 20%;
+}
+
+h4 {
+    background-color: #ffefea;
+    color: #323851;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 16px;
+    padding: 8px;
+    margin-left: 20%;
+    text-align: center;
+    letter-spacing: 0.015em;
+}
+
+.nombres {
+    background-color: #FAFAFA;
+    font-style: normal;
+    font-size: 16,07px;
+    text-align: center;
+    letter-spacing: -0.02em;
+    margin-right: 22%;
+}
+
+.textitems {
+    color: #B3B2B7;
+    font-size: 15px;
+    font-style: normal;
+    line-height: 26px;
+    display: flex;
+    align-items: center;
+    letter-spacing: -0.01em;
+    padding-left: 3%;
+    padding-top: 3%;
+}
+
+.tituloperfil {
+    margin-bottom: 10%;
+}
+
+.testimonios {
+    background-color: #FAFAFA;
+    color: #B3B2B7;
+    font-size: 15px;
+    font-style: normal;
+    text-align: center;
+    padding-left: 7%;
+    padding-right: 7%;
+    padding-top: 4%;
+    padding-bottom: 6%;
+    line-height: 26px;
+}
+
+button {
+    background-color: #F3603B;
+    border: none;
+    box-shadow: 0px 4px 8px rgba(243, 96, 59, 0.5);
+    color: white;
+    font-weight: 500;
+    font-family: 'Be Vietnam Pro', sans-serif;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    border-radius: 50px;
+    width: 134px;
+    padding: 10px;
+    margin-left: 30%;
+    margin-right: 40%;
+}
+
+
+.ultimoboton {
+    margin-top: 6%;
+    margin-bottom: 8%;
+}
+
+.botongo {
+    font-family: 'Be Vietnam Pro', sans-serif;
+    background-color: #F3603B;
+    border: none;
+    color: white;
+    padding: 10px;
+    width: 69px;
+    border-radius: 50px;
+    font-size: 12px;
+    font-weight: 500;
+    letter-spacing: 0.02em;
+}
+
+.numerico {
+    background-color: #F3603B;
+    font-style: bold;
+    box-shadow: none;
+    color: white;
+    display: flex;
+    border: none;
+    border-radius: 30px;
+    justify-content: center;
+    padding: 10px;
+    width: 69px;
+    position: relative;
+    top: 36px;
+    right: 94px;
+}
+
+img .perfiles {
+    display: block;
+}
+
+.perfiles {
+    width: 70px;
+    height: 70px;
+    margin-left: 40%;
+    margin-right: 40%;
+    margin-top: 5%;
+    margin-bottom: 4%;
+}
+
+.prefooter {
+    color: #FFFFFF;
+    background-color: #F3613C;
+    font-weight: bold;
+    font-style: normal;
+    font-size: 40px;
+    text-align: center;
+    padding: 10%;
+    padding-top: 20%;
+    padding-bottom: 20%;
+}
+
+.botonrevez {
+    background-color: #FFFFFF;
+    color: #F3603B;
+    margin-left: 25%;
+    margin-right: 40%;
+}
+
+form {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    padding-top: 13%;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.cajanav {
+    color: #B3B2B7;
+    font-size: 13px;
+    font-family: 'Be Vietnam Pro', sans-serif;
+    border: none;
+    padding: 10px;
+    width: 75%;
+    border-radius: 50px;
+}
+
+footer {
+    background-color: #1E1E26;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-top: 15%;
+    padding-bottom: 10%;
+    color: transparent;
+    font-size: 16px;
+}
+
+a {
+    color: white;
+    font-family: 'Be Vietnam Pro', sans-serif;
+    font-size: 16px;
+    font-weight: lighter;
+    text-decoration: none;
+    text-align: center;
+    line-height: 40px;
+}
+
+.fab {
+    color: white;
+    font-size: 32px;
+    position: relative;
+    margin-bottom: 12%;
+    margin-left: 8%;
+    margin-right: 1%;
+}
+
+.segundologo { 
+    margin-left: 30%;
+    margin-bottom: 10%;
+}
+
+.copy {
+    text-align: center;
+    color: #8C8C94;
+    font-weight: normal;
+    font-size: 12px;
+    padding-bottom: 7%;
+}
+
+/* RESPONSIVE: */
+
+@media screen and (min-width: 376px) {
+    header .fas{
+        display: none;
+    }
+}
+
+@media screen and (min-width: 376px) {
+    header .navbar {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        position: static;
+    }
+}
+
+@media screen and (min-width: 376px) {
+    header {
+        display: flex;
+        justify-content: center;
+        flex-direction: row;
+        align-items: center;
+        padding: 0px 600px;
+        width: 1439.54px;
+        height: 174px;
+    }
+}
+
+@media screen and (min-width: 376px) {
+    nav {
+        margin-left: 20%;
+    }
+}
+
+
+@media screen and (min-width: 376px) {
+    ul.navega li {
+        display: list-item;
+        flex-direction: row;
+        justify-content: space-around;
+        padding: 0px;
+        margin-bottom: 10%;
+    }
+}
+
+@media screen and (min-width: 376px) {
+    .navega {
+        font-size: 13px;
+        display: flex;
+        width: 382px;
+        justify-content: space-around;
+    }
+}
+
+@media screen and (min-width: 376px) {
+    header .logo {
+        display: flex;
+    }
+
+@media screen and (min-width: 376px) {
+    .botonprincipal {
+        text-align: center;
+        padding-right: 60px;
+        padding-left: 60px;
+        margin-right: 370px;
+    }
+}
+
+@media screen and (min-width: 376px) {
+    .navega a {
+        color: #242E52;
+        font-weight: 500;
+        font-size: 13px;
+        font-family: 'Be Vietnam Pro', sans-serif;
+    }
+}
+
+@media screen and (min-width: 376px) {
+    .graficosmobile{
+        display: none;
+    }
+}
+
+@media screen and (min-width: 376px) {
+    .graficos {
+        display: flex;
+        margin-left: 50%;
+    }
+}
+
+@media screen and (min-width: 376px) {
+   h1 {
+        text-align: left;
+       font-size: 59px;
+       line-height: 66px;
+       align-items: center;
+       letter-spacing: -0.035em;
+       margin-top: -30%;
+       margin-left:14%;
+       width: 34%;
+   }
+}
+
+@media screen and (min-width: 376px) {
+    .textocentral {
+        color: #000000;
+        text-align: left;
+        margin-left: 8%;
+        width: 36%;
+    }
+}
+
+@media screen and (min-width: 376px) {
+    .botonget {
+        margin-bottom: 12%;
+        margin-top: -5%;
+        margin-left: 13.8%;
+    }
+}
+
+@media screen and (min-width: 376px) {
+    h3 {
+        display: block;
+        margin-block-start: 1em;
+        margin-block-end: 1em;
+        margin-inline-start: 0px;
+        margin-inline-end: 0px;
+        font-weight: bold;
+    }
+}
+
+@media screen and (min-width: 376px) {
+    .segundoh3 {
+        text-align: left;
+        margin-left: 14%;
+        width: 25%;
+    }
+}
+
+@media screen and (min-width: 376px) {
+    article {
+        background-color: white;
+        width: 14%;
+        margin-left: 50%;
+    }
+}
+
+@media screen and (min-width: 376px) {
+    article h4{
+        background-color: white;
+        text-align: left;
+    }
+}
+
+@media screen and (min-width: 376px) {
+    h4 {
+        width: 145%;
+        margin-top: -188%;
+    }
+}
+
+@media screen and (min-width: 376px) {
+    .textitems {
+        width: 32%;
+        margin-left: 51%;
+        position: relative;
+        top: -340px;
+    }
+}
+
+@media screen and (min-width: 376px) {
+    .numerico {
+        position: relative;
+        top: -340px;
+    }
+}
+
+@media screen and (min-width: 376px) {
+    .tituloperfil {
+        font-size: 39px;
+        text-align: center;
+        position: absolute;
+        width: 100%;
+    }
+}
+
+@media screen and (min-width: 376px) {
+    .coments {
+        margin-top: 10%;
+        margin-left: 2%;
+    }
+}
+
+@media screen and (min-width: 376px) {
+    .testi {
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        margin-top: -20%;
+    }
+}
+
+@media screen and (min-width: 376px) {
+    .nombres {
+        position: relative;
+        margin-top: -7%;
+        padding-top: 7%;
+        z-index: -1;
+        width: 55%;
+        justify-content: center;
+    }
+}
+
+@media screen and (min-width: 376px) {
+    .testimonios {
+        width: 445px;
+        height: 135px;
+        left: 40px;
+        top: 1680px;
+    }
+}
+
+@media screen and (min-width: 376px) {
+    .ultimoboton {
+        margin-left: -50%;
+        margin-bottom: 15%;
+        margin-top: 35%;
+    }
+}
+
+@media screen and (min-width: 376px) {
+    .prefooter {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        height: 224px;
+        padding: 0;
+    }
+}
+
+@media screen and (min-width: 376px) {
+    h2 {
+        padding-top: 8%;
+        padding-left: 8%;
+        text-align: left;
+    }
+}
+
+@media screen and (min-width: 376px) {
+    .botonrevez {
+        padding-left: 10px;
+        margin-right: 150px;
+    }
+}
+
+@media screen and (min-width: 376px) {
+    footer {
+        position: absolute;
+        height: 257px;
+        width: 1440px;
+    }
+}
+
+@media screen and (min-width: 376px) {
+    li .menufooter {
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        padding: 0px;
+    }
+}
+
+@media screen and (min-width: 376px) {
+    .navfooter {
+        position: absolute;
+        width: 392.73px;
+        height: 141.14px;
+        left: 450.69px;
+    }
+}
+
+@media screen and (min-width: 376px) {
+    form {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        position: absolute;
+        width: 272.81px;
+        height: 50px;
+        left: 1001.3px;
+        margin-top: -7%;
+    }
+}
+
+@media screen and (min-width: 376px) {
+    img .segundologo {
+        position: absolute;
+        display: flex;
+    }
+}
+
+@media screen and (min-width: 376px) {
+    .segundologo {
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 0px;
+        margin-left: -4%;
+        margin-bottom: 5%;
+    }
+}
+
+@media screen and (min-width: 376px) {
+    .fab {
+        font-size: 20px;  
+        position: relative;
+        display: inline-block;
+        margin: 5px;
+        padding: 5px;
+        left: 10%;
+        margin-top: 10%;
+    }
+}
+
+@media screen and (min-width: 376px) {
+    .cajanav {
+        padding: 10px;
+        width: 201px;
+        position: static;
+        align-items: center;
+        margin-right: 4%;
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
+}
+
+@media screen and (min-width: 376px) {
+    .botongo {
+        padding: 10px;
+        width: 200%;
+        position: static;
+        align-items: center;
+        margin-right: 15%;
+        padding-top: 15px;
+        padding-bottom: 15px;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+}
+
+@media screen and (min-width: 376px) {
+    .copy {
+        position: absolute;
+        align-items: center;
+        display: flex;
+        width: 213.85px;
+        height: 20px;
+        left: 1040.26px;
+        top: 150px;
+    }
+}
+
+button:focus {
+    background-color: #ffefea;
+    color: #f25f3a;
+}
+
+input:invalid {
+    color: #f25f3a;
+}
+
